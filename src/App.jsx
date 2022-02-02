@@ -36,14 +36,14 @@ const inputs = [
     {
       id: 4,
       name: "password",
-      type: "text",
+      type: "password",
       placeholder: "Password",
       label: "Password",
     },
     {
       id: 5,
       name: "confirmPassword",
-      type: "text",
+      type: "password",
       placeholder: "Confirm Password",
       label: "Confirm Password",
     }
@@ -64,6 +64,7 @@ const inputs = [
   return (
     <div className="App">
       <form onSubmit={handleSubmit}>
+        <h1>Register</h1>
         {inputs.map((input) => (
           <FormInput 
           key={input.id} 

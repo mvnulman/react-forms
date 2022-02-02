@@ -9,5 +9,18 @@
 
 input {
     padding: 15px;
-    margin: 10px 0px ;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+label {
+    font-size: 18px;
+    color: rgb(77, 76, 76)
 }
