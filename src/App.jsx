@@ -47,6 +47,7 @@ const inputs = [
       label: "Password",
       pattern:`^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$`,
       required: true,
+      autoComplete: "true",
     },
     {
       id: 5,
@@ -57,6 +58,7 @@ const inputs = [
       label: "Confirm Password",
       pattern: values.password,
       required: true,
+      autoComplete: "true",
     }
   ];
 
